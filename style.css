@@ -23,3 +23,21 @@ header {
 
     font-size: 40px;
 }
+
+.menu>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu>ul>li {
+    color: #3a7e3a;
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+.menu>ul>li:hover {
+    color: #0c2f7c;
+    font-size: 23px;
+    margin-left: 30px;
+}
