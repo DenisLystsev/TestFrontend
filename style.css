@@ -30,14 +30,18 @@ header {
     flex-direction: row;
 }
 
-.menu>ul>li {
+.menu>ul>li>a {
     color: #3a7e3a;
     font-size: 23px;
     margin-left: 30px;
 }
 
-.menu>ul>li:hover {
+.menu>ul>li>a:hover {
     color: #0c2f7c;
     font-size: 23px;
     margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
 }
